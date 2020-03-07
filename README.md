@@ -7,5 +7,5 @@
 Step 1. Make sure you have unreal engine 4.24+, visual studio (2019 preferably) with the c++ development environment
 and also .net framework 4.60+
 
-Step 1. Just run it! Everything is automated, except when it invokes unreal to generate the visual studio project files
+Step 2. Just run it! Everything is automated, except when it invokes unreal to generate the visual studio project files
 It will popup and you have to select your desired unreal version and click ok.
