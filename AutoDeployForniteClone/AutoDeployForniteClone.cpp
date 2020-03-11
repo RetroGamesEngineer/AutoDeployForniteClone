@@ -183,7 +183,7 @@ int main(int argc, char **argv)
             URLDownloadToFileW(0,fornitecloneZipUrl.c_str(),fortnitecloneZipPath.c_str(),0,static_cast<IBindStatusCallback*>(&progress));
 
         GameLiftClientSDK=desktopPath + L"\\UE4GameLiftClientSDK-master";
-        FortniteClone=desktopPath + L"\\fortnite-clone-ue4-patch-4";
+        FortniteClone=desktopPath + L"\\fortnite-clone-ue4-patch-5";
         if(!PathFileExistsW(GameLiftClientSDK.c_str()))
         {
             std::cout << step++ << ". Unzipping gameliftclientsdk to desktop...\n";
@@ -195,7 +195,7 @@ int main(int argc, char **argv)
             ShellUnzip(fortnitecloneZipPath.c_str(),desktopPath.c_str());
         }
 
-        std::cout << step++ << ". Copying gameliftsdk dlls and libs to fornite-clone-ue4-patch-4/Plugins/GameLiftClientSDK/ThirdParty/GameLiftClientSDK/Win64\n";
+        std::cout << step++ << ". Copying gameliftsdk dlls and libs to fornite-clone-ue4-patch-5/Plugins/GameLiftClientSDK/ThirdParty/GameLiftClientSDK/Win64\n";
         std::wstring ThirdPartyDllsSource=GameLiftClientSDK + L"\\GameLiftClientSDK\\ThirdParty";
         std::wstring ThirdPartyDllsDest=FortniteClone + L"\\Plugins\\GameLiftClientSDK";
         std::wcout << "Copying: " << ThirdPartyDllsSource << "\nTo: " << ThirdPartyDllsDest << "\n";
