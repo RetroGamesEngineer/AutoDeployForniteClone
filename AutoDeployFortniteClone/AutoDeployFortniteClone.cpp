@@ -150,7 +150,7 @@ std::string vcsolutionPath;
 std::wstring FortniteClone;
 std::wstring FortniteClone_uproject;
 std::wstring gameliftsdkZipUrl=L"https://github.com/YetiTech-Studios/UE4GameLiftClientSDK/archive/master.zip";
-std::wstring fortnitecloneZipUrl=L"https://github.com/pivotman319-new/fortnite-clone-ue4/archive/patch-4.zip";
+std::wstring fortnitecloneZipUrl=L"https://github.com/pivotman319-new/fortnite-clone-ue4/archive/patch-5.zip";
 
 int main(int argc, char **argv)
 {

@@ -150,7 +150,7 @@ std::wstring GameLiftClientSDK;
 std::wstring FortniteClone;
 std::wstring ForniteClone_uproject;
 std::wstring gameliftsdkZipUrl=L"https://github.com/YetiTech-Studios/UE4GameLiftClientSDK/archive/master.zip";
-std::wstring fornitecloneZipUrl=L"https://github.com/pivotman319-new/fortnite-clone-ue4/archive/patch-4.zip";
+std::wstring fornitecloneZipUrl=L"https://github.com/pivotman319-new/fortnite-clone-ue4/archive/patch-5.zip";
 
 int main(int argc, char **argv)
 {
